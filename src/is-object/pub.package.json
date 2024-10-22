@@ -1,0 +1,33 @@
+{
+    "name": "@trandx/is-object",
+    "version": "0.0.0",
+    "private": false,
+    "type": "module",
+    "description": "This utility function checks if a given value is a plain object. It returns `true` if the value is an object and `false` otherwise.",
+    "keywords": [
+        "object",
+        "check",
+        "type"
+    ],
+    "main": "lib/index.js",
+    "module": "lib/index.js",
+    "types": "types/index.d.ts",
+    "files": [
+        "lib",
+        "types"
+    ],
+    "publishConfig": {
+        "access": "public",
+        "registry": "https://registry.npmjs.com"
+    },
+    "author": {
+        "name": "Trandx",
+        "email": "trandxcode@gmail.com",
+        "url": "https://github.com/Trandx"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Trandx/native/tree/main/src/range"
+    },
+    "license": "MIT"
+}

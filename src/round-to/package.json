@@ -1,0 +1,33 @@
+{
+  "name": "@trandx/round-to",
+  "version": "1.0.0",
+  "description": "This utility function rounds a number to a specified number of decimal places.",
+  "keywords": [
+    "rounded",
+    "number"
+  ],
+  "main": "dist/index.js",
+  "type": "module",
+  "module": "dist/lib/index.js",
+  "types": "dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/lib/index.js",
+      "types": "./dist/types/index.d.ts"
+    }
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.com",
+    "directory": "dist"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build && npm run cp && npm run mv-pkg-json",
+    "preview": "vite preview",
+    "cp": "find ./ -maxdepth 1 -type f \\( -name 'pub.*.json' -o -name 'README.md' \\) -exec cp {} ./dist \\; ",
+    "mv-pkg-json": "cd ./dist && mv pub.package.json package.json && node ../scripts/update-dist-package-json.js"
+  },
+  "author": "Trandx",
+  "license": "MIT"
+}

@@ -1,0 +1,32 @@
+{
+    "name": "@trandx/random",
+    "version": "0.0.0",
+    "private": false,
+    "type": "module",
+    "description": "This utility function generates a random code based on the specified length, type, and sensitivity.",
+    "main": "lib/index.js",
+    "module": "lib/index.js",
+    "types": "types/index.d.ts",
+    "style": "lib/style.css",
+    "files": [
+        "lib",
+        "types"
+    ],
+    "keywords": [
+        "random"
+    ],
+    "publishConfig": {
+        "access": "public",
+        "registry": "https://registry.npmjs.com"
+    },
+    "author": {
+        "name": "Trandx",
+        "email": "trandxcode@gmail.com",
+        "url": "https://github.com/Trandx"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Trandx/native/tree/main/src/random"
+    },
+    "license": "MIT"
+}
