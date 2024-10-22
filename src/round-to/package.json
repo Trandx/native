@@ -1,6 +1,6 @@
 {
   "name": "@trandx/round-to",
-  "version": "1.0.0",
+  "version": "3.1.0",
   "description": "This utility function rounds a number to a specified number of decimal places.",
   "keywords": [
     "rounded",
