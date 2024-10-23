@@ -1,9 +1,6 @@
 {
-    "name": "@trandx/random",
-    "version": "0.0.0",
     "private": false,
     "type": "module",
-    "description": "This utility function generates a random code based on the specified length, type, and sensitivity.",
     "main": "lib/index.js",
     "module": "lib/index.js",
     "types": "types/index.d.ts",

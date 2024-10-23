@@ -3,7 +3,8 @@
   "version": "3.1.0",
   "description": "This utility function generates a random code based on the specified length, type, and sensitivity.",
   "keywords": [
-    "rounded number"
+    "random",
+    "generate"
   ],
   "main": "dist/index.js",
   "type": "module",

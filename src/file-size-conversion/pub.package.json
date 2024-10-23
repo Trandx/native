@@ -1,9 +1,6 @@
 {
-    "name": "@trandx/file-size-conversion",
-    "version": "0.0.0",
     "private": false,
     "type": "module",
-    "description": "This utility provides a function to convert file sizes from bytes to human-readable units like KB, MB, GB, and TB.",
     "main": "lib/index.js",
     "module": "lib/index.js",
     "types": "types/index.d.ts",
