@@ -1,5 +1,12 @@
 # @trandx/file-size-conversion
 
+## 3.1.1
+
+### Patch Changes
+
+- 9cd54e5: patch
+- ded62ba: correct doc issues
+
 ## 3.1.0
 
 ### Minor Changes

@@ -1,6 +1,6 @@
 {
   "name": "@trandx/random",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "description": "This utility function generates a random code based on the specified length, type, and sensitivity.",
   "keywords": [
     "random",
