@@ -1,19 +1,12 @@
 {
-    "name": "@trandx/round-to",
-    "version": "0.0.0",
     "private": false,
     "type": "module",
-    "description": "This utility function rounds a number to a specified number of decimal places.",
     "main": "lib/index.js",
     "module": "lib/index.js",
     "types": "types/index.d.ts",
     "files": [
         "lib",
         "types"
-    ],
-    "keywords": [
-        "rounded",
-        "number"
     ],
     "publishConfig": {
         "access": "public",
