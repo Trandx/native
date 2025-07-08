@@ -1,6 +1,7 @@
-import { roundTo } from "@trandx/round-to"
+import { roundTo } from "../round-to"
 
-const fileSizeCoversion = function (bytes: number) {
+
+const fileSizeConversion = function (bytes: number) {
     const KO_LIMIT = 1024
     const MO_LIMIT = 1024 * 1024
     const GO_LIMIT = 1024 * 1024 * 1024
@@ -26,4 +27,4 @@ const fileSizeCoversion = function (bytes: number) {
 
 }
 
-export {fileSizeCoversion}
+export {fileSizeConversion}
