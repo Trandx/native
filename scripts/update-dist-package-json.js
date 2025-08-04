@@ -13,6 +13,9 @@ try {
   const newDistPackageData = {
     ...distPackageData,
     version: packageData.version,
+    name: packageData.name,
+    keywords:  packageData.keywords,
+    description: packageData.description,
     // Uncomment the lines below if you want to include more fields
     // name: packageData.name,
     // main: packageData.main, // Adjust as needed for your use case
@@ -22,7 +25,7 @@ try {
   // Write the package.json with the current version into the dist folder
   fs.writeFileSync(distPackageJsonPath, JSON.stringify(newDistPackageData, null, 2));
 
-  console.log('package.json copied to dist with updated version');
+  console.log('package.json copied to dist with updated version', newDistPackageData.version);
 } catch (error) {
   console.error('Error occurred while copying package.json:', error.message);
 }
