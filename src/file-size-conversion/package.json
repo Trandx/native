@@ -1,6 +1,6 @@
 {
   "name": "@trandx/file-size-conversion",
-  "version": "1.0.0",
+  "version": "3.1.1",
   "description": "This utility provides a function to convert file sizes from bytes to human-readable units like KB, MB, GB, and TB.",
   "keywords": [
     "conversion",

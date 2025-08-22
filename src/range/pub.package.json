@@ -1,9 +1,6 @@
 {
-    "name": "@trandx/range",
-    "version": "0.0.0",
     "private": false,
     "type": "module",
-    "description": "This utility function generates an array of numbers within a specified range.",
     "main": "lib/index.js",
     "module": "lib/index.js",
     "types": "types/index.d.ts",
@@ -11,12 +8,6 @@
     "files": [
         "lib",
         "types"
-    ],
-    "keywords": [
-        "generate",
-        "range",
-        "list",
-        "number"
     ],
     "publishConfig": {
         "access": "public",
